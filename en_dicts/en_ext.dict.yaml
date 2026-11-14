@@ -1,0 +1,2295 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 补充的英文词汇 -------
+#
+---
+name: en_ext
+version: "2024-05-31"
+sort: by_weight
+...
+# 一些杂项
+&nbsp;	&nbsp;
+.DS_Store	.ds_store
+README.md	readme.md
+
+# 按键
+Fn	fn
+cmd	cmd
+cmdline	cmdline
+command	command
+Ctrl	ctrl
+control	control
+Opt	opt
+option	option
+shift	shift
+tab	tab
+Caps	caps
+CapsLock	capslock
+return	return
+enter	enter
+space	space
+backspace	backspace
+Del	del
+delete	delete
+Esc	esc
+eject	eject
+
+
+# 月份（据说好像 5、6、7 月不要缩写 https://www.zhihu.com/question/29896678）
+January	january
+Jan.	jan.
+January	jan
+February	february
+Feb.	feb.
+February	feb
+March	march
+Mar.	mar.
+March	mar
+April	april
+Apr.	apr.
+April	apr
+May	may
+June	june
+# Jun.	Jun
+June	jun
+July	july
+# Jul.	Jul
+# July	Jul
+August	august
+Aug.	aug.
+August	aug
+September	september
+Sep.	sep.
+Sept.	sep.
+Sept.	sept.
+September	sep
+September	sept
+October	october
+Oct.	oct.
+October	oct
+November	november
+Nov.	nov.
+November	nov
+December	december
+Dec.	dec.
+December	dec
+
+
+# 星期
+Monday	monday
+Mon.	mon.
+Monday	mon
+Tuesday	tuesday
+Tue.	tue.
+Tuesday	tue.
+Wednesday	wednesday
+Wed.	wed.
+Wednesday	wed
+Thursday	thursday
+Thu.	thu.
+Thurs.	thu.
+Thurs.	thurs.
+Thursday	thu
+Thursday	thurs
+Friday	friday
+Fri.	fri.
+Friday	fri
+Saturday	saturday
+Sat.	sat.
+Saturday	sat
+Sunday	sunday
+Sun.	sun.
+Sunday	sun
+
+
+# 生活大爆炸 & 老友记
+Sheldon	sheldon
+Leonard	leonard
+Howard	howard
+Rajesh	rajesh
+Penny	penny
+Bernadette	bernadette
+Amy	amy
+Rachel	rachel
+Monica	monica
+Joey	joey
+Ross	ross
+Chandler	chandler
+Phoebe	phoebe
+
+
+# 特定的排序，为了每组的排序，code 必须保持一致
+hell	hell	2
+he'll	hell	1
+shell	shell	2
+she'll	shell	1
+well	well	2
+we'll	well	1
+ill	ill	2
+I'll	ill	1
+ID	id	2
+I'd	id	1
+shed	shed	2
+she'd	shed	1
+net	net	2
+.NET	net	1
+.NET	dotnet
+
+
+# 带权重的系列
+iPhone	iphone	999
+iPhone 15	iphone	4
+iPhone 15 Plus	iphone	3
+iPhone 15 Pro	iphone	2
+iPhone 15 Pro Max	iphone	1
+iPhone 16	iphone	4
+iPhone 16 Plus	iphone	3
+iPhone 16 Pro	iphone	2
+iPhone 16 Pro Max	iphone	1
+iPhone 17	iphone	4
+iPhone 17 Plus	iphone	3
+iPhone 17 Pro	iphone	2
+iPhone 17 Pro Max	iphone	1
+iPhone Air	iphone	1
+
+Mac OS X	macosx	999
+Mac OS X Cheetah	macosx	1
+Mac OS X Puma	macosx	2
+Mac OS X Jaguar	macosx	3
+Mac OS X Panther	macosx	4
+Mac OS X Tiger	macosx	5
+Mac OS X Leopard	macosx	6
+Mac OS X Snow Leopard	macosx	7
+
+OS X	osx	999
+OS X Lion	osx	1
+OS X Mountain Lion	osx	2
+OS X Mavericks	osx	3
+OS X Yosemite	osx	4
+OS X El Capitan	osx	5
+
+macOS	macos	999
+macOS Sierra	macos	1
+macOS High Sierra	macos	2
+macOS Mojave	macos	3
+macOS Catalina	macos	4
+macOS Big Sur	macos	5
+macOS Monterey	macos	6
+macOS Ventura	macos	7
+macOS Sonoma	macos	8
+macOS Tahoe	macos	9
+
+Windows	windows	999
+Windows 95	windows	1
+Windows 98	windows	2
+Windows Me	windows	3
+Windows 2000	windows	4
+Windows XP	windows	5
+Windows XP	windowsxp
+Windows Vista	windows	6
+Windows 7	windows	7
+Windows 8	windows	8
+Windows 10	windows	10
+Windows 11	windows	11
+
+
+# +_+
+iPhone 3G	iphone3g
+iPhone 3GS	iphone3gs
+iPhone 4	iphone4
+iPhone 4S	iphone4s
+iPhone 5	iphone5
+iPhone 5C	iphone5c
+iPhone 5S	iphone5s
+iPhone 6	iphone6
+iPhone 6 Plus	iphone6plus
+iPhone 6S	iphone6s
+iPhone 6S Plus	iphone6splus
+iPhone SE	iphonese
+iPhone 7	iphone7
+iPhone 7 Plus	iphone7plus
+iPhone 8	iphone8
+iPhone 8 Plus	iphone8plus
+iPhone X	iphonex
+iPhone XR	iphonexr
+iPhone XS	iphonexs
+iPhone XS Max	iphonexsmax
+iPhone 11	iphone11
+iPhone 11 Pro	iphone11pro
+iPhone 11 Pro Max	iphone11promax
+iPhone 12	iphone12
+iPhone 12 Mini	iphone12mini
+iPhone 12 Pro	iphone12pro
+iPhone 12 Pro Max	iphone12promax
+iPhone 13	iphone13
+iPhone 13 Mini	iphone13mini
+iPhone 13 Pro	iphone13pro
+iPhone 13 Pro Max	iphone13promax
+iPhone 14	iphone14
+iPhone 14 Plus	iphone14plus
+iPhone 14 Pro	iphone14pro
+iPhone 14 Pro Max	iphone14promax
+iPhone 15	iphone15
+iPhone 15 Plus	iphone15plus
+iPhone 15 Pro	iphone15pro
+iPhone 15 Pro Max	iphone15promax
+iPhone 16	iphone16
+iPhone 16 Plus	iphone16plus
+iPhone 16 Pro	iphone16pro
+iPhone 16 Pro Max	iphone16promax
+Mac OS X Cheetah	macosxcheetah
+Mac OS X Puma	macosxpuma
+Mac OS X Jaguar	macosxjaguar
+Mac OS X Panther	macosxpanther
+Mac OS X Tiger	macosxtiger
+Mac OS X Leopard	macosxleopard
+Mac OS X Snow Leopard	macosxsnowleopard
+OS X Lion	osxlion
+OS X Mountain Lion	osxmountainlion
+OS X Mavericks	osxmavericks
+OS X Yosemite	osxyosemite
+OS X El Capitan	osxelcapitan
+macOS Sierra	macossierra
+macOS High Sierra	macoshighsierra
+macOS Mojave	macosmojave
+macOS Catalina	macoscatalina
+macOS Big Sur	macosbigsur
+macOS Monterey	macosmonterey
+macOS Ventura	macosventura
+macOS Sonoma	macossonoma
+Windows 95	windows95
+Windows 98	windows98
+Windows Me	windowsme
+Windows 2000	windows2000
+Windows XP	windowsxp
+Windows Vista	windowsvista
+Windows 7	windows7
+Windows 8	windows8
+Windows 10	windows10
+Windows 11	windows11
+ERC-20	erc-20
+ERC-721	erc-721
+ERC-1155	erc-1155
+High Sierra	highsierra
+Mojave	mojave
+Big Sur	bigsur
+TypeORM	typeorm
+Wick	wick
+wick	wick
+RPG	rpg
+Role-Playing Game	rpg
+Role-Playing Game	roleplayinggame
+ADC	adc
+Attack Damage Carry	adc
+Attack Damage Carry	attackdamagecarry
+APC	apc
+Ability Power Carry	apc
+Ability Power Carry	abilitypowercarry
+GDP	gdp
+GDP per capita	gdppercapita
+Gross Domestic Product	gdp
+Gross Domestic Product	grossdomesticproduct
+Gross Domestic Product per capita	grossdomesticproductpercapita
+LOL	lol
+League of Legends	lol
+League of Legends	leagueoflegends
+Laugh Out Loudly	lol
+Laugh Out Loudly	laughoutloudly
+SQL Server	sqlserver
+Microsoft SQL Server	sqlserver
+Microsoft SQL Server	microsoftsqlserver
+SSH	ssh
+Secure Shell	ssh
+Secure Shell	secureshell
+ISO	iso
+International Organization for Standardization	iso
+ISO 8601	iso8601
+RFC	rfc
+Request for Comments	rfc
+RFC 3339	rfc3339
+RFCs	rfcs
+IETF	ietf
+Internet Engineering Task Force	ietf
+Pro Max	promax
+Aeron	aeron
+Aeron Chair	aeronchair
+Netscape	netscape
+WeChat	wechat
+Dota	dota
+Database	database
+Macintosh	macintosh
+Superlist	superlist
+DJ	dj
+DLC	dlc
+Downloadable content	dlc
+Downloadable content	downloadablecontent
+Quora	quora
+LinkedIn	linkedin
+COO	coo
+Chief Operating Officer	coo
+Chief Operating Officer	chiefoperatingofficer
+iShot	ishot
+TapTap	taptap
+HHD	hhd
+Hybrid drive	hhd
+Hybrid drive	hybriddrive
+SSD	ssd
+Solid-state drive	ssd
+Solid-state drive	solid-statedrive
+CPU	cpu
+Central Processing Unit	cpu
+Central Processing Unit	centralprocessingunit
+GPU	gpu
+Graphics Processing Unit	gpu
+Graphics Processing Unit	graphicsprocessingunit
+MCU	mcu
+ARM	arm
+Advanced RISC Machine	arm
+Advanced RISC Machine	advancedriscmachine
+eGPU	egpu
+One Piece	onepiece
+CCTV	cctv
+Closed-Circuit Television	cctv
+Closed-Circuit Television	closed-circuittelevision
+China Central Television	cctv
+ColorOS	coloros
+China Central Television	chinacentraltelevision
+GTA	gta
+Grand Theft Auto	gta
+Grand Theft Auto	grandtheftauto
+GTAV	gtav
+Grand Theft Auto V	gtav
+Grand Theft Auto V	grandtheftautov
+LGBT	lgbt
+GPS	gps
+ATM	atm
+automated teller machine	atm
+automated teller machine	automatedtellermachine
+CentOS	centos
+Debian	debian
+BBC	bbc
+DataGrip	datagrip
+AlphaGo	alphago
+AlphaFold	alphafold
+Valve	valve
+CS:GO	cs:go
+Counter-Strike: Global Offensive	cs:go
+Counter-Strike	counter-strike
+Tesla	tesla
+Polo	polo
+Code Runner	coderunner
+AfterShokz Aeropex	aftershokzaeropex
+AfterShokz	aftershokz
+Aeropex	aeropex
+X11	x11
+Xnip	xnip
+Workspace	workspace
+Google Chrome	googlechrome
+Google Workspace	googleworkspace
+WYSIWYG	wysiwyg
+What You See Is What You Get	wysiwyg
+Mark Text	marktext
+Joplin	joplin
+SteamOS	steamos
+TikTok	tiktok
+IDC	idc
+International Data Corporation	idc
+International Data Corporation	internationaldatacorporation
+Wunderlist	wunderlist
+VMware	vmware
+Fusion	fusion
+Flyme	flyme
+VMware Fusion	vmwarefusion
+VMware Fusion Player	vmwarefusionplayer
+VMware Fusion Pro	vmwarefusionpro
+Vanilla	vanilla
+Ubisoft	ubisoft
+Twitch	twitch
+Todoist	todoist
+TeamViewer	teamviewer
+Sleep Cycle	sleepcycle
+Sony	sony
+PDF Expert	pdfexpert
+OSCHINA	oschina
+Navicat	navicat
+Navicat Premium	navicatpremium
+NameSilo	namesilo
+Musixmatch	musixmatch
+G Suite	gsuite
+CloudXNS	cloudxns
+Bitwarden	bitwarden
+BitComet	bitcomet
+Bitbucket	bitbucket
+Google Photos	googlephotos
+Google Calendar	googlecalendar
+LyricsX	lyricsx
+OneDrive	onedrive
+Xbox	xbox
+Xbox One	xboxone
+Xbox One X	xboxonex
+Xbox Series	xboxseries
+Xbox Series S	xboxseriess
+Switch	switch
+CSS	css
+Cascading Style Sheets	css
+Cascading Style Sheets	cascadingstylesheets
+OTC	otc
+IEPL	iepl
+International Ethernet Private Line	iepl
+IPLC	iplc
+International Private Leased Circuit	iplc
+IntelliJ	intellij
+IntelliJ IDEA	intellijidea
+IntelliJ IDEA Community	intellijideacommunity
+IntelliJ IDEA Ultimate	intellijideaultimate
+IDEA Community	ideacommunity
+IDEA Ultimate	ideaultimate
+IDE	ide
+NTR	ntr
+Notion	notion
+Touch Bar	touchbar
+DOM	dom
+D.VA	d.va
+IPv4	ipv4
+IPv6	ipv6
+Rick and Morty	rickandmorty
+uTools	utool
+uTools	utools
+AirPods	airpods
+AirPods Pro	airpodspro
+AirPods Max	airpods
+AirPods Max	airpodsmax
+CallKit	callkit
+OSS	oss
+Object Storage Service	oss
+Object Storage Service	objectstorageservice
+OceanBase	oceanbase
+YouTube Music	youtubemusic
+Apple Music	applemusic
+TED	ted
+DeepL	deepl
+Homebrew	homebrew
+Finder	finder
+VMess	vmess
+Shadowsocks	shadowsocks
+PC	pc
+iStat	istat
+ClashX	clashx
+ClashX Pro	clashxpro
+qBittorrent	qbittorrent
+qBittorrent	qbit
+qBittorrent Enhanced Edition	qee
+qBittorrent Enhanced Edition	qbee
+qBittorrent Enhanced Edition	qbitee
+qBittorrent Enhanced Edition	qbittorrentee
+qBittorrent Enhanced Edition	qbittorrentenhancededition
+YAML	yaml
+YAML Ain't Markup Language	yaml
+TOML	toml
+Tom's Obvious Minimal Language	toml
+Hexo	hexo
+Hugo	hugo
+Epic	epic
+Epic Games	epicgames
+Instagram	instagram
+Evernote	evernote
+PDF	pdf
+Portable Document Format	pdf
+Portable Document Format	portabledocumentformat
+QuickTime Player	quicktimeplayer
+CSDN	csdn
+Gitee	gitee
+Gitea	gitea
+GitBook	gitbook
+Gboard	gboard
+Access	access
+BMW	bmw
+Bayerische Motoren Werke AG	bmw
+BGM	bgm
+Background music	bgm
+Background music	backgroundmusic
+CEO	ceo
+Chief Executive Officer	ceo
+Chief Executive Officer	chiefexecutiveofficer
+CTO	cto
+Chief Technology Officer	cto
+Chief Technology Officer	chieftechnologyofficer
+CFO	cfo
+Chief Financial Officer	cfo
+Django	django
+DBMesh	dbmesh
+Facebook	facebook
+Firefox	firefox
+git	git
+GoLand	goland
+Golang	golang
+IQOS	iqos
+Intel	intel
+JSON	json
+JetBrains	jetbrains
+KTV	ktv
+MBP	mbp
+MacBook Pro	mbp
+MBA	mba
+MacBook Air	mba
+MariaDB	mariadb
+Microsoft Access	access
+MongoDB	mongodb
+MySQL	mysql
+MyISAM	myisam
+InnoDB	innodb
+Node.js	node.js
+Pornhub	pornhub
+Postgres	postgres
+PowerPoint	powerpoint
+PPT	ppt
+PowerPoint	ppt
+Microsoft PowerPoint	ppt
+PyCharm	pycharm
+roguelike	roguelike
+Redis	redis
+RION	rion
+SegmentFault	segmentfault
+SPA	spa
+SQL	sql
+Structured Query Language	sql
+Structured Query Language	structuredquerylanguage
+SQLite	sqlite
+Sourcetree	sourcetree
+Spiritfarer	spiritfarer
+TCP/IP	tcp/ip
+Turso	turso
+Twitter	twitter
+V2EX	v2ex
+VSCode	vscode
+Vue	vue
+Vue.js	vue.js
+WebStorm	webstorm
+Xcode	xcode
+emoji	emoji
+gakki	gakki
+iMazing	imazing
+jQuery	jquery
+JPG	jpg
+Joint Photographic Experts Group	jpg
+JPEG	jpeg
+Joint Photographic Experts Group	jpeg
+PNG	png
+Portable Network Graphics	png
+GIF	gif
+Graphics Interchange Format	gif
+DNS	dns
+Domain Name System	dns
+Domain Name System	domainnamesystem
+RimWorld	rimworld
+Factorio	factorio
+Game Boy	gameboy
+GBA	gba
+Game Boy Advance	gba
+Game Boy Advance	gameboyadvance
+GBC	gbc
+Game Boy Color	gbc
+Game Boy Color	gameboycolor
+GCC	gcc
+GNU Compiler Collection	gcc
+GNU Compiler Collection	gnucompilercollection
+uBlacklist	ublacklist
+Apple Watch	applewatch
+AppleCare	applecare
+AppleCare+	applecare+
+Apple Card	applecard
+Apple Books	applebooks
+ATI	ati
+Apple Store	applestore
+Apple TV	appletv
+Apple TV+	appletv+
+Apple Developer	appledeveloper
+Apple File System	applefilesystem
+Apple ID	appleid
+Apple News	applenews
+Apple Pay	applepay
+iTunes Store	itunesstore
+AMD	amd
+AMDgpu	amdgpu
+Amphetamine	amphetamine
+App Store	appstore
+AirDrop	airdrop
+Alfred	alfred
+Amazon	amazon
+Adobe	adobe
+Axure	axure
+Bartender	bartender
+Better Snap Tool	bettersnaptool
+Better Touch Tool	bettertouchtool
+Better Zip	betterzip
+Brackets	brackets
+BundleHunt	bundlehunt
+Byword	byword
+Btitish	btitish
+Btrfs	btrfs
+Caffeine	caffeine
+Calcbot	calcbot
+Calibre	calibre
+CarPlay	carplay
+CDN	cdn
+Content Delivery Network	cdn
+Content Delivery Network	contentdeliverynetwork
+CheatSheet	cheatsheet
+Chocolatey	chocolatey
+choco	choco
+ChemBioDraw	chembiodraw
+Clean My Mac	cleanmymac
+Clean My Mac X	cleanmymacx
+CloudApp	cloudapp
+CloudMagic	cloudmagic
+CodeBox	codebox
+CodeKit	codekit
+Color Schemer	colorschemer
+Color Snapper	colorsnapper
+Control Center	controlcenter
+Cornerstone	cornerstone
+Cortana	cortana
+Curio	curio
+Current Mac Bundles	currentmacbundles
+Daisy Disk	daisydisk
+Datagraph	datagraph
+Day One	dayone
+Default Folder X	defaultfolderx
+Desktop	desktop
+Developer Preview	developerpreview
+DEVONthink	devonthink
+Disk Utility	diskutility
+Diumoo	diumoo
+Dropbox	dropbox
+Dropzone	dropzone
+Endnote	endnote
+Entropy	entropy
+EPUB	epub
+Eureka	eureka
+ExFAT	exfat
+Extended File Allocation Table	exfat
+Extended File Allocation Table	extendedfileallocationtable
+Fantastical	fantastical
+F-Droid	f-droid
+FileVault	filevault
+Final Cut Pro	finalcutpro
+Flickr	flickr
+Force Touch	forcetouch
+Forecast	forecast
+ForkLift	forklift
+Frank DeLoupe	frankdeloupe
+Geekbench	geekbench
+Gestimer	gestimer
+GhostNote	ghostnote
+GhostTile	ghosttile
+Gif Brewery	gifbrewery
+gists	gists
+GitHub	github
+GoagentX	goagentx
+Google Play	googleplay
+Google Play Music	googleplaymusic
+Graffle	graffle
+Handoff	handoff
+Hazel	hazel
+HomeKit	homekit
+HTML	html
+HyperText Markup Language	html
+HyperText Markup Language	hypertextmarkuplanguage
+iA Writer	iawriter
+IBM	ibm
+International Business Machines	ibm
+International Business Machines	internationalbusinessmachines
+iCloud	icloud
+iCloud Mail	icloudmail
+iCloud Drive	iclouddrive
+iExplorer	iexplorer
+iFFmpeg	iffmpeg
+IFTTT	ifttt
+iMac	imac
+IME	ime
+Input Method Editor	ime
+iMessage	imessage
+iMore	imore
+Inboard	inboard
+Instacast	instacast
+Instashare	instashare
+Intensify	intensify
+IP	ip
+iPack	ipack
+iPad Air	ipadair
+iPad mini	ipadmini
+iPad Pro	ipadpro
+IPN	ipn
+IPTV	iptv
+iStat Menus	istatmenus
+iTerm	iterm
+iTerm2	iterm2
+iTunes	itunes
+iTunes Connect	itunesconnect
+iTunes Match	itunesmatch
+iWatch	iwatch
+Kaleidoscope	kaleidoscope
+Karabiner	karabiner
+Keka	keka
+Keyboard Maestro	keyboardmaestro
+Keycard	keycard
+KeyCue	keycue
+LaTeXian	latexian
+Launcher	launcher
+Little Snitch	littlesnitch
+Live Photos	livephotos
+LiveReload	livereload
+LockScreen	lockscreen
+Mac App Store	macappstore
+Mac Rumors	macrumors
+MacAppDeals	macappdeals
+MacBook	macbook
+MacBook Neo	macbookneo
+MacBook Air	macbookair
+MacBook Pro	macbookpro
+Mac Pro	macpro
+MacID	macid
+MacTips	mactips
+MacUpdate Desktop	macupdatedesktop
+Mailbox	mailbox
+MAMP PRO	mamppro
+Manico	manico
+Maple	maple
+MarkMyWords	markmywords
+MarsEdit	marsedit
+Mathtype	mathtype
+MIPS	mips
+Moke	moke
+MoneyWiz	moneywiz
+Moom	moom
+MP3	mp3
+MP4	mp4
+MplayerX	mplayerx
+Netflix	netflix
+Noizio	noizio
+nvALT	nvalt
+OmmWriter	ommwriter
+OmniFocus	omnifocus
+OmniGraffle	omnigraffle
+OmniOutliner	omnioutliner
+OmniPlan	omniplan
+OneNote	onenote
+OS	os
+Operating System	os
+Operating System	operatingsystem
+PaintCode	paintcode
+Parallels Desktop	parallelsdesktop
+PayPal	paypal
+PhotoDesk	photodesk
+Picatext	picatext
+PingWest	pingwest
+Pixelmator	pixelmator
+Play by Play	playbyplay
+PlistEdit	pliplistedit
+PopClip	popclip
+PowerPack	powerpack
+Privoxy	privoxy
+Promotee	promotee
+Proxifier	proxifier
+Public Beta	publicbeta
+Quitter	quitter
+Quiver	quiver
+Rdio	rdio
+Readability	readability
+Readkit	readkit
+Regulex	regulex
+Remote	remote
+RescueTime	rescuetime
+Retina	retina
+Safari	safari
+Safari View Controller	safariviewcontroller
+SaneDesk	sanedesk
+Scrapbook	scrapbook
+ScreenFloat	screenfloat
+ScreenFlow	screenflow
+Scrivener	scrivener
+SDK	sdk
+SDDM	sddm
+Simple Desktop Display Manager	sddm
+Software Development Kit	sdk
+Software Development Kit	softwaredevelopmentkit
+Should I Sleep	shouldisleep
+Simplenote	simplenote
+Siri	siri
+Slicy	slicy
+Snagit	snagit
+Sparkbox	sparkbox
+Sparrow	sparrow
+Speedtest	speedtest
+Spotify	spotify
+SSL	ssl
+StackSocial	stacksocial
+Sublime Text	sublimetext
+TechWeb	techweb
+Terminal	terminal
+TestFlight	testflight
+Texshop	texshop
+Textastic	textastic
+TextExpander	textexpander
+TextWrangler	textwrangler
+The Unarchiver	theunarchiver
+Time Capsule	timecapsule
+TinkerTool	tinkertool
+Touch ID	touchid
+Trello	trello
+Tumblr	tumblr
+tvOS	tvos
+Tweetbot	tweetbot
+Typora	typora
+Uber	uber
+uBlock	ublock
+uBlock Origin	ublockorigin
+Ulysses	ulysses
+USB	usb
+Universal Serial Bus	usb
+Universal Serial Bus	universalserialbus
+Versions	versions
+VPN	vpn
+virtual private network	vpn
+watchOS	watchos
+Wi-Fi	wi-fi
+WiFi	wifi
+Widget	widget
+WiFi Explorer	wifiexplorer
+WiFi Scanner	wifiscanner
+Window Tidy	windowtidy
+Windows RT	windowsrt
+Windows NT	windowsnt
+Windows Server	windowsserver
+Windows Mobile	windowsmobile
+Windows Phone	windowsphone
+Workflow	workflow
+WorkFlowy	workflowy
+WWDC	wwdc
+Apple Worldwide Developers Conference	wwdc
+Xee	xee
+Xeon	xeon
+Xmind	xmind
+xScope	xscope
+XtraFinder	xtrafinder
+YouTube	youtube
+YouTuber	youtuber
+ZEALER	zealer
+Rosetta	rosetta
+Face ID	faceid
+URL	url
+Uniform Resource Locator	url
+URI	uri
+Uniform Resource Identifier	uri
+HTTP	http
+Hypertext Transfer Protocol	http
+Hypertext Transfer Protocol	hypertexttransferprotocol
+HTTPS	https
+Hypertext Transfer Protocol Secure	https
+Hypertext Transfer Protocol Secure	hypertexttransferprotocolsecure
+WSGI	wsgi
+BTC	btc
+Bitcoin	btc
+Bitcoin	bitcoin
+Blockchain	blockchain
+gank	gank
+debuff	debuff
+MagSafe	magsafe
+Magic UI	magicui
+HDMI	hdmi
+High Definition Multimedia Interface	hdmi
+High Definition Multimedia Interface	highdefinitionmultimediainterface
+NSFW	nsfw
+Not Safe For Work	nsfw
+Not Suitable For Work	nsfw
+Not Safe For Work	notsafeforwork
+Not Suitable For Work	notsuitableforwork
+Termius	termius
+Jinja	jinja
+NetSetMan	netsetman
+Cinity	cinity
+UTC	utc
+Coordinated Universal Time	utc
+Coordinated Universal Time	coordinateduniversaltime
+GMT	gmt
+Greenwich Mean Time	gmt
+Greenwich Mean Time	greenwichmeantime
+GoDaddy	godaddy
+Eason	eason
+SQLAlchemy	sqlalchemy
+Admin	admin
+Administrator	administrator
+ASMR	asmr
+Autonomous sensory meridian response	asmr
+Autonomous sensory meridian response	autonomoussensorymeridianresponse
+iKlear	iklear
+# Legal High	ligouhai
+Legal High	legalhigh
+Werkzeug	werkzeug
+itsdangerours	itsdangerours
+Mimestream	mimestream
+CRUD	crud
+Create Read Update Delete	crud
+RESTful	restful
+CLion	clion
+Unix-like	unix-like
+Metal	metal
+Alembic	alembic
+imgur	imgur
+Stack Overflow	stackoverflow
+PyWebIO	pywebio
+Launchpad	launchpad
+cosplay	cosplay
+Gravatar	gravatar
+Xshell	xshell
+Nokia	nokia
+OCR	ocr
+Optical Character Recognition	ocr
+Optical Character Recognition	opticalcharacterrecognition
+Déjà vu	dejavu
+FFmpeg	ffmpeg
+DMCA	dmca
+Digital Millennium Copyright Act	dmca
+Digital Millennium Copyright Act	digitalmillenniumcopyrightact
+PUA	pua
+Pickup Artists	pua
+Pickup Artists	pickupartists
+Dockerfile	dockerfile
+Docker Hub	dockerhub
+Darcula	darcula
+Google Analytics	googleanalytics
+Cloudflare Pages	cloudflarepages
+GitHub Pages	githubpages
+Coding Pages	codingpages
+Gitee Pages	giteepages
+CNAME	cname
+macOS Server	macosserver
+Darwin	darwin
+NAS	nas
+Network Attached Storage	nas
+Network Attached Storage	networkattachedstorage
+CommonMark	commonmark
+Goldmark	goldmark
+blackFriday	blackfriday
+One UI	oneui
+Raycast	raycast
+CloudFront	cloudfront
+RSS	rss
+rsync	rsync
+RDF Site Summary	rss
+Really Simple Syndication	rss
+CocoaPods	cocoapods
+Zsh	zsh
+Oh My Zsh	ohmyzsh
+ProxyChains	proxychains
+AdSense	adsense
+Google AdSense	googleadsense
+Disqus	disqus
+Waline	waline
+Valine	valine
+LeanCloud	leancloud
+PaperMod	papermod
+Vercel	vercel
+CS	cs
+C++	cpp
+C#	csharp
+Counter-Strike	cs
+Backblaze	backblaze
+WebP	webp
+WebM	webm
+CleanShot X	cleanshotx
+Setapp	setapp
+GraphQL	graphql
+TOTP	totp
+Time-based One-Time Password	totp
+Unclutter	unclutter
+DuckDuckGo	duckduckgo
+Yandex	yandex
+Geralt	geralt
+ServerCat	servercat
+Zoho	zoho
+Harington	harington
+Hades	hades
+Gecko	gecko
+TinyPNG	tinypng
+Thanos	thanos
+XML	xml
+Extensible Markup Language	xml
+Extensible Markup Language	extensiblemarkuplanguage
+XHTML	xhtml
+eXtensible HyperText Markup Language	xhtml
+eXtensible HyperText Markup Language	extensiblehypertextmarkuplanguage
+Googlebot	googlebot
+Baiduspider	baiduspider
+Bingbot	bingbot
+SogouSpider	sogouspider
+YoudaoBot	youdaobot
+GitHub Copilot	githubcopilot
+GitHub Copilot X	githubcopilotx
+GitHub Copilot CLI	githubcopilotcli
+GitHub Copilot chat	githubcopilotchat
+iPadOS	ipados
+Apple Pencil	applepencil
+Reddit	reddit
+HHKB	hhkb
+Happy Hacking Keyboard	hhkb
+Happy Hacking Keyboard	happyhackingkeyboard
+MAPPA	mappa
+SEO	seo
+Search Engine Optimization	seo
+Search Engine Optimization	searchengineoptimization
+OCSP	ocsp
+Online Certificate Status Protocol	ocsp
+Online Certificate Status Protocol	onlinecertificatestatusprotocol
+Arthas	arthas
+Wordle	wordle
+Silicon Valley	siliconvalley
+Pied Piper	piedpiper
+Pikachu	pikachu
+Fastmail	fastmail
+WordPress	wordpress
+AOSP	aosp
+Android Open Source Project	aosp
+Android Open Source Project	androidopensourceproject
+TypeScript	typescript
+Unity	unity
+MIUI	miui
+Shottr	shottr
+Turbo Boost	turboboost
+Turbo Boost Switcher	turboboostswitcher
+OPPO	oppo
+vivo	vivo
+Uno	uno
+GDPR	gdpr
+General Data Protection Regulation	gdpr
+Netlify	netlify
+Mac Studio	macstudio
+Studio Display	studiodisplay
+OC	oc
+Objective-C	oc
+Objective-C	objective-c
+Mac mini	macmini
+Garena	garena
+WonderCV	wondercv
+WebKit	webkit
+Igalia	igalia
+WebCore	webcore
+GNU	gnu
+GNU General Public License	gnu
+GNU General Public License	gnugeneralpubliclicense
+GPL	gpl
+GNU General Public License	gpl
+Ukraine	ukraine
+Minions	minions
+Rush B	rushb
+Rush A	rusha
+AK	ak
+AK47	ak47
+AK74	ak74
+Mastercard	mastercard
+COVID	covid
+COVID-19	covid-19
+Wallpaper Engine	wallpaperengine
+Erlang	erlang
+FAQ	faq
+Frequently Asked Question	faq
+Frequently Asked Question	frequentlyaskedquestion
+Panamera	panamera
+FaceTime	facetime
+FaceTime Audio	facetimeaudio
+LMAO	lmao
+Laugh My Ass Off	lmao
+Laugh My Ass Off	laughmyassoff
+Vivaldi	vivaldi
+Cryptomator	cryptomator
+WTF	wtf
+what the fuck	wtf
+what the fuck	whatthefuck
+ASAP	asap
+as soon as possible	asap
+PUBG	pubg
+PLAYERUNKNOWN'S BATTLEGROUNDS	pubg
+Ruby	ruby
+GFM	gfm
+GitHub Flavored Markdown	gfm
+GitHub Flavored Markdown	githubflavoredmarkdown
+GeekNote	geeknote
+GUI	gui
+Graphical User Interface	gui
+Graphical User Interface	graphicaluserinterface
+VPS	vps
+Virtual private server	vps
+Virtual private server	virtualprivateserver
+BIOS	bios
+Basic Input/Output System	bios
+Basic Input/Output System	basicinput/outputsystem
+goroutine	goroutine
+Celsius	celsius
+Fahrenheit	fahrenheit
+Mojito	mojito
+Niconico	niconico
+TickTick	ticktick
+CHDBits	chdbits
+M-Team	m-team
+Vim	vim
+Google Voice	googlevoice
+Workers	workers
+Cloudflare Workers	cloudflareworkers
+PlayStation	playstation
+Visual Studio	visualstudio
+AVIF	avif
+AV1 Image File Format	avif
+Apple Arcade	applearcade
+MS-DOS	ms-dos
+Microsoft Visual Studio	microsoftvisualstudio
+Microsoft Visual Studio	visualstudio
+Microsoft Corporation	microsoftcorporation
+Microsoft Windows	microsoftwindows
+Microsoft Office	microsoftoffice
+Microsoft Word	microsoftword
+Microsoft Excel	microsoftexcel
+Microsoft Access	microsoftaccess
+Microsoft PowerPoint	microsoftpowerpoint
+Microsoft PowerPoint	powerpoint
+Microsoft Outlook	microsoftoutlook
+Microsoft OneNote	microsoftonenote
+Microsoft Azure	microsoftazure
+Microsoft Edge	microsoftedge
+IE	ie
+Internet Explorer	ie
+Internet Explorer	internetexplorer
+Windows Media Player	windowsmediaplayer
+Media Player	mediaplayer
+Windows Media Player	mediaplayer
+Visual Studio Code	visualstudiocode
+Visual Studio Code	vscode
+PowerShell	powershell
+Surface	surface
+MSN	msn
+Skype	skype
+TOC	toc
+Table of Contents	toc
+Table of Contents	tableofcontents
+Jenny	jenny
+One Dark	onedark
+IINA	iina
+GUID	guid
+Globally Unique Identifier	guid
+Globally Unique Identifier	globallyuniqueidentifier
+APFS	apfs
+Apple File System	apfs
+NTFS	ntfs
+New Technology File System	ntfs
+New Technology File System	newtechnologyfilesystem
+Microsoft NTFS	ntfs
+Microsoft NTFS	microsoftntfs
+ChromeOS	chromeos
+GCD	gcd
+Grand Central Dispatch	gcd
+Grand Central Dispatch	grandcentraldispatch
+greatest common divisor	gcd
+greatest common divisor	greatestcommondivisor
+Ed Sheeran	edsheeran
+Sheeran	sheeran
+Cloudflare Images	cloudflareimages
+Cloudflare Stream	cloudflarestream
+Zero Trust	zerotrust
+goroutines	goroutines
+Universal Actions	universalactions
+Google Drive	googledrive
+Google One	googleone
+Airbnb	airbnb
+OpenCC	opencc
+HarmonyOS	harmonyos
+NPC	npc
+Non-Player Character	npc
+Non-Player Character	non-playercharacter
+MVP	mvp
+Quantumult X	quantumultx
+Confluence	confluence
+Skynet	skynet
+serverless	serverless
+Identifier	identifier
+NameCheap	namecheap
+rime-ice	rime-ice
+rime-frost	rime-frost
+rime-shuangpin-fuzhuma	rime-shuangpin-fuzhuma
+Handover	handover
+Language Reactor	languagereactor
+Tencent	tencent
+Alibaba	alibaba
+Alibaba Group	alibabagroup
+Linus	linus
+PaaS	paas
+platform as a service	paas
+aPaaS	apaas
+application Platform as a Service	apaas
+WhatsApp	whatsapp
+Messenger	messenger
+Doge	doge
+SUV	suv
+Sport Utility Vehicle	suv
+Sport Utility Vehicle	sportutilityvehicle
+UFO	ufo
+Unidentified Flying Object	ufo
+Unidentified Flying Object	unidentifiedflyingobject
+Copyright	copyright
+Registered	registered
+TM	tm
+tmux	tmux
+SOS	sos
+abcd	abcd
+ABCD	abcd
+abc	abc
+ABC	abc
+Starbucks	starbucks
+I Love You	iloveyou
+ZZZ	zzz
+PS	ps
+Photoshop	ps
+Photoshop	photoshop
+Adobe Photoshop	adobephotoshop
+Honey Select	honeyselect
+McCafe	mccafe
+BSD	bsd
+Berkeley Software Distribution	bsd
+Berkeley Software Distribution	berkeleysoftwaredistribution
+DNSPod	dnspod
+Bandizip	bandizip
+NATO	nato
+North Atlantic Treaty Organization	nato
+North Atlantic Treaty Organization	northatlantictreatyorganization
+MissWarmJ	misswarmj
+NASA	nasa
+National Aeronautics and Space Administration	nasa
+Meta	meta
+PictureView	pictureview
+RAM	ram
+Random-access memory	ram
+Random-access memory	random-accessmemory
+ROM	rom
+Read-only memory	rom
+Read-only memory	read-onlymemory
+AV	av
+Adult Video	av
+Adult Video	adultvideo
+TODO	todo
+Microsoft To Do	microsofttodo
+VCD	vcd
+Video CD	vcd
+Video CD	videocd
+FBI	fbi
+Federal Bureau of Investigation	fbi
+Federal Bureau of Investigation	federalbureauofinvestigation
+FBI WARNING	fbiwarning
+CDPR	cdpr
+CD Projekt	cdpr
+CD Projekt	cdprojekt
+CD Projekt RED	cdprojektred
+ACG	acg
+Animation Comics Games	acg
+NBA	nba
+National Basketball Association	nba
+National Basketball Association	nationalbasketballassociation
+CBA	cba
+Chinese Basketball Association	cba
+Chinese Basketball Association	chinesebasketballassociation
+SpaceX	spacex
+Avira	avira
+FeHelper	fehelper
+Hypertext	hypertext
+PHP	php
+Hypertext Preprocessor	php
+Hypertext Preprocessor	hypertextpreprocessor
+duang	duang
+QSpace	qspace
+Path Finder	pathfinder
+Tabnine	tabnine
+Bonjour	bonjour
+ICMP	icmp
+Internet Control Message Protocol	icmp
+Internet Control Message Protocol	internetcontrolmessageprotocol
+Electron	electron
+FTP	ftp
+File Transfer Protocol	ftp
+File Transfer Protocol	filetransferprotocol
+SFTP	sftp
+SSH File Transfer Protocol	sftp
+SSH File Transfer Protocol	sshfiletransferprotocol
+uPic	upic
+refactoring	refactoring
+refactor	refactor
+Notepad	notepad
+Notepad++	notepad++
+Notepad++	npp
+O'Reilly	o'reilly
+Octocat	octocat
+IMAP	imap
+Internet Message Access Protocol	imap
+Internet Message Access Protocol	internetmessageaccessprotocol
+SMTP	smtp
+Simple Mail Transfer Protocol	smtp
+Simple Mail Transfer Protocol	simplemailtransferprotocol
+Waterfox	waterfox
+Let's go	let'sgo
+one-liner	one-liner
+Callback	callback
+SSID	ssid
+Service Set Identifier	ssid
+Service Set Identifier	servicesetidentifier
+Time Machine	timemachine
+regexp	regexp
+FOSS	foss
+Free and open source software	foss
+Free and open source software	freeandopensourcesoftware
+InfoQ	infoq
+SFC	sfc
+Software Freedom Conservancy	sfc
+Software Freedom Conservancy	softwarefreedomconservancy
+PopCap	popcap
+PopCap Games	popcapgames
+Cyberpunk	cyberpunk
+Kotlin	kotlin
+PhpStorm	phpstorm
+Datalore	datalore
+DataSpell	dataspell
+RubyMine	rubymine
+AppCode	appcode
+Code With Me	codewithme
+JetBrains Mono	jetbrainsmono
+JVM	jvm
+Java Virtual Machine	jvm
+Java Virtual Machine	javavirtualmachine
+Java EE	javaee
+ReSharper	resharper
+dotPeek	dotpeek
+dotTrace	dottrace
+dotMemory	dotmemory
+dotCover	dotcover
+TeamCity	teamcity
+EduTools	edutools
+FIFO	fifo
+First In, First Out	fifo
+LIFO	lifo
+Last In, First out	lifo
+Neat Download Manager	neatdownloadmanager
+Maine	maine
+Elijah	elijah
+Love & Peace	love&peace
+Peace & Love	peace&love
+Liquid	liquid
+LCD	lcd
+Liquid Crystal Display	lcd
+Liquid Crystal Display	liquidcrystaldisplay
+Emotional Damage	emotionaldamage
+GitLab	gitlab
+Apple silicon	applesilicon
+ADSL	adsl
+Asymmetric Digital Subscriber Line	adsl
+Asymmetric Digital Subscriber Line	asymmetricdigitalsubscriberline
+ICP	icp
+Internet Content Provider	icp
+Internet Content Provider	internetcontentprovider
+iRime	irime
+APK	apk
+Android application package	apk
+Android application package	androidapplicationpackage
+Type-A	type-a
+Type-B	type-b
+Type-C	type-c
+USB Type-A	usbtype-a
+USB Type-B	usbtype-b
+USB Type-C	usbtype-c
+USB-A	usb-a
+USB-B	usb-b
+USB-C	usb-c
+J.R.R. Tolkien	j.r.r.tolkien
+Impostor Factory	impostorfactory
+Vampire Survivors	vampiresurvivors
+AppCleaner	appcleaner
+IQIYI	iqiyi
+BuhoCleaner	buhocleaner
+Midjourney	midjourney
+Champion's inequality	champion'sinequality
+NovelAI	novelai
+Angular	angular
+rebase	rebase
+Motrix	motrix
+VCS	vcs
+version control system	vcs
+version control system	versioncontrolsystem
+cnBeta	cnbeta
+pull request	pullrequest
+merge request	mergerequest
+Ant Design	antdesign
+Disney	disney
+early access	earlyaccess
+Fedora	fedora
+hading	hading
+LeetCode	leetcode
+Helvetica	helvetica
+limon	limon
+GFW	gfw
+Great Firewall	gfw
+Great Firewall	greatfirewall
+GeoIP	geoip
+gVim	gvim
+Vimium	vimium
+Nvim	nvim
+Neovim	neovim
+MacVim	macvim
+VimR	vimr
+LunarVim	lunarvim
+IdeaVim	ideavim
+unfo	unfo
+timeshift	timeshift
+ChatGPT	chatgpt
+OpenAI	openai
+OpenAI Codex	openaicodex
+OpenAI ChatGPT	openaichatgpt
+VoIP	voip
+Voice over Internet Protocol	voip
+Greasy Fork	greasyfork
+GalGame	galgame
+VoLTE	volte
+VoWiFi	vowifi
+Voice Over LTE	volte
+CEF	cef
+Chromium Embedded Framework	cef
+Chromium Embedded Framework	chromiumembeddedframework
+RustDesk	rustdesk
+Capcom	capcom
+Paxlovid	paxlovid
+datetime	datetime
+Hammerspoon	hammerspoon
+CrossOver	crossover
+hallelujahIM	hallelujahim
+AVAST!	avast!
+Bitdefender	bitdefender
+ClamAV	clamav
+Comodo	comodo
+McAfee	mcafee
+OK	ok
+NG	ng
+TV	tv
+VTuber	vtuber
+NVMe	nvme
+NGFF	ngff
+PCIe	pcie
+PCI Express	pcie
+PCI Express	pciexpress
+SATA	sata
+eSATA	esata
+mSATA	msata
+GPIB	gpib
+GPIO	gpio
+DVD	dvd
+CD	cd
+eSIM	esim
+UTF	utf
+UTF-8	utf-8
+UTF-16	utf-16
+ASCII	ascii
+ANSI	ansi
+IEEE	ieee
+Institute of Electrical and Electronics Engineers	ieee
+DjVu	djvu
+LaTeX	latex
+API	api
+Application Programming Interface	api
+Ethernet	ethernet
+SOCKS	socks
+PrintScreen	printscreen
+DIY	diy
+Do It Yourself	diy
+DNA	dna
+deoxyribonucleic acid	dna
+RNA	rna
+ribonucleic acid	rna
+mRNA	mrna
+messenger RNA	mrna
+Python	python
+MIT	mit
+Massachusetts Institute of Technology	mit
+Massachusetts Institute of Technology	massachusettsinstituteoftechnology
+MIT License	mitlicense
+LGPL	lgpl
+GNU Lesser General Public License	lgpl
+GNU Lesser General Public License	gnulessergeneralpubliclicense
+Mozilla	mozilla
+Mozilla Firefox	mozillafirefox
+Apache	apache
+Steam	steam
+Steam Deck	steamdeck
+Android	android
+android	android
+Chrome	chrome
+iOS	ios
+Linux	linux
+Ubuntu	ubuntu
+Windows	windows
+Microsoft	microsoft
+Nintendo	nintendo
+Google	google
+Nexus	nexus
+Wii U	wiiu
+Wii	wii
+Oracle	oracle
+OriginOS	originos
+iPhone	iphone
+iPad	ipad
+iPod	ipod
+UI	ui
+UK	uk
+United Kingdom	uk
+United Kingdom	unitedkingdom
+DirectX	directx
+Kinect	kinect
+Cloudflare	cloudflare
+Buddhism	buddhism
+Catholic	catholic
+Christ	christ
+Christian	christian
+Christmas	christmas
+Easter	easter
+Egyptian	egyptian
+Islam	islam
+Jupiter	jupiter
+Latin	latin
+Mars	mars
+Marxist	marxist
+Moslem	moslem
+Negro	negro
+Thanksgiving	thanksgiving
+Venus	venus
+X-ray	x-ray
+American	american
+Australia	australia
+Australian	australian
+Brazil	brazil
+Brazilian	brazilian
+Britain	britain
+Canada	canada
+Canadian	canadian
+Chinese	chinese
+Danish	danish
+Denmark	denmark
+Dutch	dutch
+Egypt	egypt
+England	england
+English	english
+Filipino	filipino
+Finland	finland
+Finn	finn
+Finnish	finnish
+France	france
+French	french
+German	german
+Germany	germany
+Greece	greece
+Greek	greek
+Hebrew	hebrew
+Hindi	hindi
+Hip-Hop	hip-hop
+Iceland	iceland
+Icelander	icelander
+Icelandic	icelandic
+India	india
+Indian	indian
+Iran	iran
+Iranian	iranian
+Ireland	ireland
+Irish	irish
+Irishman	irishman
+Israel	israel
+Israeli	israeli
+Italian	italian
+Italilian	italilian
+Italy	italy
+Japan	japan
+Japanese	japanese
+Korea	korea
+Korean	korean
+native American	nativeamerican
+Netherlands	netherlands
+New Zealand	newzealand
+New Zealander	newzealander
+Philppines	philppines
+Poland	poland
+Pole	pole
+Polish	polish
+Portugal	portugal
+Portuguese	portuguese
+Russia	russia
+Russian	russian
+Scotland	scotland
+Scots	scots
+Scottish	scottish
+Simplified Chinese	simplifiedchinese
+Traditional Chinese	traditionalchinese
+Singapore	singapore
+Spain	spain
+Spanish	spanish
+Swede	swede
+Sweden	sweden
+Swedish	swedish
+Swiss	swiss
+Thai	thai
+Thailand	thailand
+USA	usa
+The United States of America	usa
+United States	unitedstates
+USD	usd
+United States Dollar	usd
+United States Dollar	unitedstatesdollar
+Wales	wales
+Welsh	welsh
+CN	cn
+MTV	mtv
+Music Television	mtv
+Music Television	musictelevision
+Mrs.	mrs.
+MitM	mitm
+man-in-the-middle	mitm
+ToDesk	todesk
+PreSearch	presearch
+Odysee	odysee
+ISBN	isbn
+International Standard Book Number	isbn
+International Standard Book Number	internationalstandardbooknumber
+ISSN	issn
+International Standard Serial Number	issn
+International Standard Serial Number	internationalstandardserialnumber
+QoS	qos
+Quality of Service	qos
+Quality of Service	qualityofservice
+DoH	doh
+DNS over HTTPS	doh
+DNS over HTTPS/3	doh
+DNS over HTTPS	dnsoverhttps
+DNS over HTTPS/3	dnsoverhttps/3
+DoQ	doq
+DNS over QUIC	doq
+DNS over QUIC	dnsoverquic
+HK	hk
+Hong Kong	hk
+Hong Kong	hongkong
+Party Animals	partyanimals
+ABS	abs
+Anti-lock Braking System	abs
+Anti-lock Braking System	anti-lockbrakingsystem
+ADHD	adhd
+attention deficit hyperactivity disorder	adhd
+attention deficit hyperactivity disorder	attentiondeficithyperactivitydisorder
+BBQ	bbq
+barbecue	bbq
+BBS	bbs
+Bulletin Board System	bbs
+Bulletin Board System	bulletinboardsystem
+chrono	chrono
+Widevine	widevine
+Google Ads	googleads
+Valhalla	valhalla
+KFC	kfc
+AWP	awp
+Arctic Warfare Police	awp
+Arctic Warfare Police	arcticwarfarepolice
+CLI	cli
+Command-Line Interface	cli
+Command-Line Interface	command-lineinterface
+Dnsmasq	dnsmasq
+DOS	dos
+Disk Operating System	dos
+Disk Operating System	diskoperatingsystem
+USDT	usdt
+Tether	tether
+Lua	lua
+MacType	mactype
+Alipay	alipay
+WeChat Pay	wechatpay
+Google Maps	googlemaps
+Google Keep	googlekeep
+Google Docs	googledocs
+UPnP	upnp
+Universal Plug and Play	upnp
+Universal Plug and Play	universalplugandplay
+DoS	dos
+denial-of-service attack	dos
+denial-of-service attack	denial-of-serviceattack
+DDoS	ddos
+distributed denial-of-service attack	ddos
+distributed denial-of-service attack	distributeddenial-of-serviceattack
+LibreWolf	librewolf
+WebRTC	webrtc
+WebDAV	webdav
+SwiftUI	swiftui
+Astro	astro
+SigmaOS	sigmaos
+fuckity	fuckity
+Funtouch OS	funtouchos
+fo	fo
+Unix shell	unixshell
+Z-Library	z-library
+Zaraz	zaraz
+Scribble Diffusion	scribblediffusion
+Lenovo	lenovo
+Adios	adios
+EMS	ems
+Express Mail Service	ems
+IPFS	ipfs
+InterPlanetary File System	ipfs
+InterPlanetary File System	interplanetaryfilesystem
+Noria	noria
+DHCP	dhcp
+Dynamic Host Configuration Protocol	dhcp
+PPPoE	pppoe
+Point-to-Point Protocol over Ethernet	pppoe
+IPoE	ipoe
+Internet Protocol over Ethernet	ipoe
+VLAN	vlan
+Virtual Local Area Network	vlan
+WLAN	wlan
+Wireless LAN	wlan
+GPT	gpt
+Generative Pre-trained Transformer	gpt
+GPT-4	gpt-4
+GPT-3.5	gpt-3.5
+Google Bard	googlebard
+LaMDA	lamda
+Language Model for Dialogue Applications	lamda
+Coinbase Wallet	coinbasewallet
+MetaMask	metamask
+Discord	discord
+New Bing	newbing
+Notion AI	notionai
+flomo	flomo
+HanLP	hanlp
+Arch Linux	archlinux
+AlmaLinux	almalinux
+Fedora CoreOS	fedoracoreos
+CoreOS	coreos
+OpenBSD	openbsd
+Rocky Linux	rockylinux
+Vultr	vultr
+GoFrame	goframe
+ORM	orm
+Object Relational Mapping	orm
+KPI	kpi
+Key Performance Indicators	kpi
+mutex	mutex
+TIOBE	tiobe
+DigitalOcean	digitalocean
+Google Authenticator	googleauthenticator
+Authenticator	authenticator
+authenticator	authenticator
+Depay	depay
+Codeium	codeium
+OpenCat	opencat
+OpenWrt	openwrt
+AWS	aws
+Amazon Web Services	aws
+Amazon Web Services	amazonwebservices
+Orion	orion
+Virgo	virgo
+Aries	aries
+Taurus	taurus
+Cancer	cancer
+Libra	libra
+Scorpio	scorpio
+Sagittarius	sagittarius
+Capricorn	capricorn
+Aquarius	aquarius
+Pisces	pisces
+Tailwind	tailwind
+Tailwind CSS	tailwindcss
+Fcitx	fcitx
+Fcitx5	fcitx5
+openSUSE	opensuse
+FOMO	fomo
+Fear of Missing Out	fomo
+bromite	bromite
+Laotian	laotian
+orz	orz
+Scooby-Doo	scooby-doo
+SpongeBob	spongebob
+SquarePants	squarepants
+SpongeBob SquarePants	spongebobsquarepants
+Louis Vuitton	louisvuitton
+FIFA	fifa
+Fédération Internationale de Football Association	fifa
+FYI	fyi
+for your information	fyi
+IPO	ipo
+Initial Public Offerings	ipo
+MVC	mvc
+Model-View-Controller	mvc
+MVVM	mvvm
+Model-View-ViewModel	mvvm
+NGO	ngo
+Non-Governmental Organization	ngo
+OMG	omg
+Oh My God	omg
+RFT	rft
+Rich Text Format	rft
+SVG	svg
+Scalable Vector Graphics	svg
+SVN	svn
+Apache Subversion	svn
+TLS	tls
+Transport Layer Security	tls
+Secure Sockets Layer	ssl
+UDP	udp
+User Datagram Protocol	udp
+TCP	tcp
+Transmission Control Protocol	tcp
+UID	uid
+User ID	uid
+USSR	ussr
+Union of Soviet Socialist Republics	ussr
+WMV	wmv
+Windows Media Video	wmv
+WWI	wwi
+World War I	wwi
+WWII	wwii
+World War II	wwii
+WWIII	wwiii
+World War III	wwiii
+PL/pgSQL	pl/pgsql
+Procedural Language / PostGres Structured Query Language	pl/pgsql
+IQ	iq
+Intelligence quotient	iq
+BTW	btw
+by the way	btw
+QUIC	quic
+Quick UDP Internet Connections	quic
+SRWare Iron	srwareiron
+Nexitally	nexitally
+AGI	agi
+Artificial general intelligence	agi
+Strong AI	strongai
+Weak AI	weakai
+Narrow AI	narrowai
+Applied AI	appliedai
+BREAKING CHANGE	breakingchange
+GitHub Actions	githubactions
+UUID	uuid
+Universally Unique Identifier	uuid
+Fyne	fyne
+Claude	claude
+Claude+	claude+
+Anthropic	anthropic
+Cinderella	cinderella
+WebGPU	webgpu
+Mailfence	mailfence
+CodeWhisperer	codewhisperer
+Heisenberg	heisenberg
+espanso	espanso
+okey	okey
+okey-dokey	okey-dokey
+CAPTCHA	captcha
+Coinbase	coinbase
+Kraken	kraken
+Huobi	huobi
+Bitfinex	bitfinex
+KuCoin	kucoin
+OKX	okx
+Arbitrum	arbitrum
+Avalanche	avalanche
+Binance	binance
+Binance Smart Chain	binancesmartchain
+OpenSea	opensea
+BNB Chain	bnbchain
+Chainlink	chainlink
+Cosmos	cosmos
+Cardano	cardano
+Polkadot	polkadot
+Solana	solana
+Starknet	starknet
+Optimism	optimism
+Polygon	polygon
+NEAR Protocol	nearprotocol
+Lens Protocal	lensprotocal
+zkSync	zksync
+Arweave	arweave
+Filecoin	filecoin
+Harmony	harmony
+Harmony One	harmonyone
+DApp	dapp
+DApps	dapps
+Uniswap	uniswap
+SushiSwap	sushiswap
+PancakeSwap	pancakeswap
+JediSwap	jediswap
+Orbiter	orbiter
+MakerDAO	makerdao
+Compound	compound
+Aave	aave
+Curve	curve
+Curve Finance	curvefinance
+dYdX	dydx
+NFT	nft
+Non-Fungible Token	nft
+Solidity	solidity
+Argent	argent
+argent	argent
+Argent X	argentx
+Braavos	braavos
+Braavos Wallet	braavos
+OneKey	onekey
+Hackintosh	hackintosh
+DYOR	dyor
+Do Your Own Research	dyor
+Noita	noita
+Screen Studio	screenstudio
+Norah	norah
+Wayland	wayland
+Wappalyzer	wappalyzer
+noop	noop
+Kung Fu	kungfu
+DeepMind	deepmind
+Google DeepMind	googledeepmind
+TL;DR	tl;dr
+too long; didn't read	tl;dr
+Ant-Man	ant-man
+ungoogled	ungoogled
+ungoogled-chromium	ungoogled-chromium
+RouterOS	routeros
+Sumatra	sumatra
+Sumatra PDF	sumatrapdf
+sideload	sideload
+sideloading	sideloading
+librime	librime
+JRPG	jrpg
+Japanese Role-Playing Game	jrpg
+Kuromis	kuromis
+heil	heil
+AmyTelecom	amytelecom
+Patreon	patreon
+Anaconda	anaconda
+LLaMA	llama
+Large Language Model Meta AI	llama
+R.I.P	r.i.p
+AIGC	aigc
+AI Generated Content	aigc
+Presto	presto
+presto	presto
+Upscayl	upscayl
+Cocos Creator	cocoscreator
+John Wick	johnwick
+npm	npm
+Node Package Manager	npm
+Node Package Manager	nodepackagemanager
+.npmrc	.npmrc
+Apple Vision	applevision
+Apple Vision Pro	applevisionpro
+Vision Pro	visionpro
+a11y	a11y
+accessibility	a11y
+i18n	i18n
+internationalization	i18n
+internationalization	internationalization
+l10n	l10n
+localization	l10n
+g11n	g11n
+globalization	g11n
+m17n	m17n
+multilingualization	m17n
+multilingualization	multilingualization
+t9n	t9n
+translation	t9n
+p13n	p13n
+personalization	p13n
+personalization	personalization
+K8s	k8s
+Kubernetes	k8s
+Kubernetes	kubernetes
+Kubeadm	kubeadm
+Minikube	minikube
+shitwork	shitwork
+A4	a4
+3D	3d
+Loki	loki
+dict	dict
+Hughie	hughie
+Maeve	maeve
+Oppenheimer	oppenheimer
+UltraEdit	ultraedit
+GoldenDict	goldendict
+tokenizer	tokenizer
+Stable Diffusion	stablediffusion
+x86	x86
+x86-64	x86-64
+x64	x64
+amd64	amd64
+arm64	arm64
+keysym	keysym
+keysyms	keysyms
+PotPlayer	potplayer
+Code::Blocks	code::blocks
+Protocol Buffers	protocolbuffers
+protobuf	protobuf
+beyatch	beyatch
+iBus	ibus
+BT	bt
+ProtonMail	protonmail
+Elasticsearch	elasticsearch
+Next.js	next.js
+JDK	jdk
+Java Development Kit	jdk
+rho	rho
+D&D	d&d
+Dungeons & Dragons	d&d
+Dungeons & Dragons	dungeons&dragons
+DnD	dnd
+D&D	dnd
+Dungeons & Dragons	dnd
+Minecraft	minecraft
+LSP	lsp
+Language Server Protocol	lsp
+Google Pixel	googlepixel
+KeyCastr	keycastr
+Laugh Tale	laughtale
+Joy Boy	joyboy
+RustRover	rustrover
+bilibili	bilibili
+Terraria	terraria
+Unihan	unihan
+DLsite	dlsite
+I'm	i'm
+you're	you're
+she's	she's
+we're	we're
+they're	they're
+aren't	aren't
+wasn't	wasn't
+weren't	weren't
+hasn't	hasn't
+haven't	haven't
+hadn't	hadn't
+wouldn't	wouldn't
+couldn't	couldn't
+shouldn't	shouldn't
+mightn't	mightn't
+mustn't	mustn't
+shan't	shan't
+ain't	ain't
+daren't	daren't
+needn't	needn't
+oughtn't	oughtn't
+who's	who's
+where's	where's
+when's	when's
+why's	why's
+how's	how's
+here's	here's
+you'll	you'll
+it'll	it'll
+they'll	they'll
+you'd	you'd
+we'd	we'd
+I've	i've
+he'd	he'd
+it'd	it'd
+they'd	they'd
+you've	you've
+we've	we've
+they've	they've
+lemme	lemme
+outta	outta
+whatcha	whatcha
+Google TV	googletv
+PVP	pvp
+Player versus Player	pvp
+PVE	pve
+player versus environment	pve
+Elon	elon
+Musk	musk
+Logseq	logseq
+WPS	wps
+Morty	morty
+Frundles	frundles
+Brotato	brotato
+engineman	engineman
+unhuman	unhuman
+unhumified	unhumified
+unhumanize	unhumanize
+P2P	p2p
+F2A	f2a
+B2B	b2b
+C2C	c2c
+B2C	b2c
+C2B	c2b
+O2O	o2o
+NBA 2K	nba2k
+WebCatalog	webcatalog
+Apple One	appleone
+pixiv	pixiv
+M4A1	m4a1
+PK	pk
+WireGuard	wireguard
+AdGuard	adguard
+Altman	altman
+Ultraman	ultraman
+GPTs	gpts
+sider	sider
+DALL·E	dall·e
+e.g.	e.g.
+i.e.	i.e.
+et al.	etal.
+Zettlr	zettlr
+Codium	codium
+CodiumAI	codiumai
+SaaS	saas
+Software as a service	saas
+gitignore	gitignore
+.gitignore	.gitignore
+Alita	alita
+epoll	epoll
+kqueue	kqueue
+LangChain	langchain
+LangServe	langserve
+LangSmith	langsmith
+runc	runc
+containerd	containerd
+Melvor	melvor
+Melvor Idle	melvoridle
+WebSocket	websocket
+systemctl	systemctl
+reconfig	reconfig
+sudo	sudo
+flypy	flypy
+traefik	traefik
+deepin	deepin
+srv	srv
+usr	usr
+AUR	aur
+Arch User Repository	aur
+pacman	pacman
+Pac-Man	pac-man
+eBPF	ebpf
+DevOps	devops
+Zippo	zippo
+QR code	qrcode
+Prometheus	prometheus
+Grafana	grafana
+Mirtle	mirtle
+Hadoop	hadoop
+HBase	hbase
+Hive	hive
+Apache Hive	apachehive
+Flink	flink
+Palworld	palworld
+submodule	submodule
+submodules	submodules
+Writerside	writerside
+Manifest V2	manifestv2
+Manifest V3	manifestv3
+Google Gemini	googlegemini
+Google Gemini Advanced	googlegeminiadvanced
+IMBA	imba
+GitButler	gitbutler
+Sora	sora
+WinNAS	winnas
+Wireshark	wireshark
+Theseus	theseus
+Laravel	laravel
+Chiikawa	chiikawa
+LibreOffice	libreoffice
+Asics	asics
+Saucony	saucony
+nvm	nvm
+Node Version Manager	nvm
+Node Version Manager	nodeversionmanager
+Prettier	prettier
+ESLint	eslint
+Hibernate	hibernate
+MyBatis	mybatis
+MyBatis-Plus	mybatis-plus
+Spring Boot	springboot
+Spring Cloud	springcloud
+Element Plus	elementplus
+Flameshot	flameshot
+Flatpak	flatpak
+Salesforce	salesforce
+V8 engine	v8engine
+V8 JS engine	v8jsengine
+V8 JavaScript engine	v8javascriptengine
+Wasm	wasm
+WebAssembly	webassembly
+Feign	feign
+OpenFeign	openfeign
+IMF	imf
+International Monetary Fund	imf
+International Monetary Fund	internationalmonetaryfund
+Terraform	terraform
+systemd	systemd
+FPGA	fpga
+field-programmable gate array	fpga
+Samsung	samsung
+Samsung Galaxy	samsunggalaxy
+VimL	viml
+Vimscript	vimscript
+Vimscripts	vimscripts
+kubectl	kubectl
+mvn	mvn
+mvnd	mvnd
+maven	maven
+
+# AI / 工具
+DeepSeek	deepseek
+MiniMax	minimax
+OpenCode	opencode
+pi agent	piagent
+piagent	piagent
+OpenClaw	openclaw
+Hermes	hermes
+
+# AI / 科技公司
+xAI	xai
+Grok	grok
+Cohere	cohere
+Hugging Face	huggingface
+HuggingFace	huggingface
+Stability AI	stabilityai
+StabilityAI	stabilityai
+Runway	runway
+Grammarly	grammarly
+Figma	figma
+Canva	canva
+Perplexity AI	perplexityai
+PerplexityAI	perplexityai
+Databricks	databricks
+Snowflake	snowflake
+Palantir	palantir
+
+# 中国科技公司
+Baidu	baidu
+ByteDance	bytedance
+Huawei	huawei
+Xiaomi	xiaomi
+iFLYTEK	iflytek
+Baichuan	baichuan
+Moonshot	moonshot
+Moonshot AI	moonshotai
+01.AI	01ai
+01AI	01ai
+StepFun	stepfun
+Stepfun	stepfun
+SenseTime	sensetime
+Megvii	megvii
+ModelBest	modelbest
+Shengshu	shengshu
+Meituan	meituan
+NetEase	netease
+Pinduoduo	pinduoduo
+NIO	nio
+XPeng	xpeng
+BYD	byd
+Douyin	douyin
+Kuaishou	kuaishou
+DJI	dji
+Zhihu	zhihu
+Bilibili	bilibili

@@ -1,0 +1,54 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+#
+# 复制自 https://github.com/tumuyan/rime-melt
+# 只保留英文词库，不做数字/符号的拼写派生
+
+schema:
+  schema_id: melt_eng
+  name: Easy English Nano
+  version: "2023-10-17"
+  author:
+    - Patrick <ipatrickmac@gmail.com>
+    - tumuyan <tumuyan@21cn.com>
+  description: Easy English Nano，只包含少量常用词汇，方便中英文混合输入度方案调用。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ASCII-OFF, ASCII-ON]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    # 不加 punctuator：英文方案不做标点转换
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - matcher
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - punct_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+
+
+translator:
+  dictionary: melt_eng
+  spelling_hints: 9
+
+punctuator:
+  __include: symbols:/punctuator
