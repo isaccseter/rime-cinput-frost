@@ -19,8 +19,13 @@ schema:
 # reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
 # states: 状态名称。
 switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中", "EN"]
+
   - name: traditionalization
     states: [ 简体, 繁体 ]
+
   - name: full_shape
     states: [ 半角, 全角 ]
 
